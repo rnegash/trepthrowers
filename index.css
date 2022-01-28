@@ -116,3 +116,20 @@ li {
   font-size: 50px;
   padding: 0px;
 }
+
+.wohoo {
+  font-size: 20px;
+  padding: 0px;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 0.5s infinite alternate;
+  }
+
+@keyframes bounce {
+  from {
+-webkit-transform: translateY(0);
+  }
+
+  to {
+-webkit-transform: translateY(-20px);
+  }
+}
